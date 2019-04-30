@@ -1,0 +1,121 @@
+body { 
+    background: #D9D9D9;
+    margin: 0;
+    padding: 0;
+    font: 20px/1.5 Arial, Helvetica, sans-serif;
+}
+
+header.page_header {
+    color: #2c2c2c;
+    background-color: #E7E6E6;
+    padding-top: 10px;
+    min-height: 120px;
+    margin: 0;
+}
+
+header.page_header .logo_utt {
+    vertical-align: middle;  
+    float: left; 
+    display: inline;
+    padding: 10px 0 0 1%;
+}
+
+h1 {
+    margin:0;
+}
+header.page_header .titre_page {
+    font-size: 30px;
+    color: black;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    letter-spacing: .05em;
+    padding: 10px 12% 0 0;
+}
+
+main {
+    background: #F2F2F2;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+main.index .recherche {
+    width:48%;
+    display: inline-block;
+    padding: 5% 0.5%;
+    border-right: black 2px solid;
+}
+
+main.index .scan {
+    width:48%;
+    display: inline-block;
+    margin: auto;
+    padding: 5% 0.5%;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #D0CECE;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+main.index .scan .logo_scan {
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main.index .produits {
+    width:54%;
+    display: inline-block;
+    padding:5% 0 5% 15%;
+}
+
+main.index .melange {
+    width:29%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top:5%;
+}
+li{
+    margin: 10px 0;
+}
+
+a:link {
+    font: 20px/1.5 Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+a:visited {
+    font: 20px/1.5 Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.liste_produit :hover {
+    font: 20px/1.5 Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.FS{
+    padding-left = 30px;
+}
+/*
+
+*/
